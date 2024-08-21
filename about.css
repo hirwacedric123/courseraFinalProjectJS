@@ -1,0 +1,148 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #FFD700; /* Gold color for hover effect */
+}
+
+/* About Us Section */
+.about-us {
+    position: relative;
+    height: 110vh;
+    background: url('images/image.png') no-repeat center center/cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+    padding-top: 80px;
+    padding-bottom: 400px;
+}
+
+.about-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+/* Our Team Section */
+.our-team {
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    top: 45%;
+    left: 35%;
+
+}
+
+.our-team h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: antiquewhite;
+    text-transform: uppercase;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-member {
+    text-align: center;
+    cursor: pointer;
+}
+
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: wheat;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: gray;
+    font-weight: 900;
+}
+
+/* Social Media Icons Styles */
+.social-icons {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #FFD700; /* Gold on hover */
+}

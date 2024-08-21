@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Contact Us Section */
+.contact-us {
+    position: relative;
+    height: 110vh;
+    background: url('images/image.png') no-repeat center center/cover;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-text {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-text h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.contact-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Contact Form Styles */
+.contact-form {
+    background:transparent;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 50%;
+    align-self: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #FFD700; /* Gold on hover */
+}
+
+/* Social Media Icons Styles */
+.social-icons {
+    position: absolute;
+    top: 40%;
+    left: 20PX;
+}
+
+.social-icon {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    font-size: 30px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #FFD700; /* Gold on hover */
+}
