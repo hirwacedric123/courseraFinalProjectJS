@@ -22,9 +22,9 @@
             </div>
 
             <div class="search-part">
-                <input type="text" class="text-box" placeholder="Search your Destination ">
+                <input type="text" id="searchInput" class="text-box" placeholder="Search your Destination " required>
                 <!-- <i class="fas fa-search" class="search-icon"></i> -->
-                <button class="search-btn">Search</button>
+                <button class="search-btn"  id="searchButton">Search</button>
                 <button class="clear-btn">Clear</button>
             </div>
 
@@ -49,6 +49,18 @@
 
 
     </div>
+
+    <div id="resultsContainer">
+        <div class="result-item">
+          <img src="images/image.png" alt="Sydney" class="result-image">
+          <div class="result-text">
+            <h3>Sydney, Australia</h3>
+            <p>A beautiful coastal city with a relaxed atmosphere, featuring the Sydney Opera House, Harbour Bridge, and stunning beaches.</p>
+            <button class="visit-button">Visit</button>
+          </div>
+        </div>
+      </div>
+      
     <script src="/travel_recommendation.js"></script>
 </body>
 </html>
