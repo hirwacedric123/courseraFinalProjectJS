@@ -2,6 +2,7 @@ If you're not using a virtual environment, you can modify the **Installation** s
 
 ```markdown
 ## Installation
+```
 
 To run this project locally, follow these steps:
 
