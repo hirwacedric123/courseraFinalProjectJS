@@ -1,8 +1,8 @@
-If you're not using a virtual environment, you can modify the **Installation** section of the README file accordingly. Here's the updated version without the virtual environment setup:
 
-```markdown
+
+
 ## Installation
-```
+
 
 To run this project locally, follow these steps:
 
