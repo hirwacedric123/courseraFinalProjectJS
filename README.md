@@ -1,5 +1,4 @@
 
-```markdown
 # Travel Recommendation Website
 
 This is a Travel Recommendation Website that helps users discover new travel destinations based on their preferences. It is built using HTML, CSS, JavaScript, and FontAwesome for icons to create a visually appealing and interactive user experience.
